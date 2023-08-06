@@ -1,10 +1,17 @@
 import './App.css';
+import TheFooter from './components/TheFooter';
+import TheHeader from './components/TheHeader';
+import TheMain from './components/TheMain';
+
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 function App() {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    <>
+      <TheHeader />
+      <TheMain />
+      <TheFooter />
+    </>
   );
 }
 
