@@ -1,10 +1,8 @@
-const TheMain = () => {
+import '../styles/the-main.css'
+
+const TheMain = ({ children }) => {
   return (
-    <main>
-      <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </main>
+    <main className='the-main'>{children}</main>
   )
 }
 
